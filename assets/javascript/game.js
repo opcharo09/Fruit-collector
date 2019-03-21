@@ -9,7 +9,7 @@ $(document).ready(function() {
 })
 
 var resetandstart = function (){
-   $ (".fruit.").empty();
+   $ ("fruit").empty();
 
    
 }
@@ -29,9 +29,7 @@ for( var i =0; i <4; i++){
              
         });
 
-     
-
-        $(".fruit").append(fruit);
+     $("fruit").append(fruit);
 
         $("#previous").html("score:", + previous)
     }
@@ -39,7 +37,7 @@ for( var i =0; i <4; i++){
  resetandstart()
 
 
-$(document).on("click", "fruit", function () {
+$(fruit).on("click", function () {
     
 
     var number = parseInt($(this).attr("data-random"));
@@ -61,7 +59,7 @@ if(previous > randomresult) {
     resetandstart();
 }
 
- elseif (previous === randomresult) 
+ else if (previous === randomresult) 
     win++;
     $("#win").html("you won:", win);
 

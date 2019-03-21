@@ -1,25 +1,7 @@
 
-.fruit{
-    
-    border:1px black;
-    height: 200px;
-    width: 200px;
-
-}
-
-.container{
-    box-shadow: 0 16px 32px 0 rgba(0, 0,0, .15);
-    border-radius: 20px
-}
-
-.container{
-     margin-bottom: 16px;
-     background-color: brown
-}
-
 .row{
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: -50px;
     padding: 20px;
     border-radius: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -35,6 +17,7 @@
     height: 200px;
     width: 200px;
     box-shadow: 15px;
+
   }
 
   h1{
@@ -42,4 +25,10 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       color: coral;
       text-align: center;
+  }
+
+  body {
+
+    background-color: navajowhite;
+    
   }
