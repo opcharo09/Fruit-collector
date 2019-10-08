@@ -12,9 +12,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
     
 </head>
-<body img src="assets/images/mahdiar-mahmoodi-580619-unsplash.jpg">
+<body>
     <h1>Fruit collector</h1>
-        <p id=randomresult></p>
 
     <div class="fruit">
     <p><strong>How to play</strong></p>
@@ -23,22 +22,20 @@
         <p>Each fruit has a different value that will be shown when you click it. </p>
         <p>The object of the game is to click on the fruit to try to match the random number shown at the begennig of the game. </p>
         <p>If you match the random number you win!. If you go over the number you lose.</p>
-        <p>Each time you win or lose the game should restart with a different number.</p>
+        <p>Each time you win or lose the game will restart with a different number.</p>
 
     </div>
 
-    <div class="row">
-        <div class="fruit">
-            <img src="./assets/images/eduardo-sanchez-235047-unsplash.jpg" class="straw" alt="Strawberrys">
-            <img src="assets/images/graphic-node-1360832-unsplash.jpg" class="orange" alt="oranges">
-            <img src="./assets/images/jo-lanta-711875-unsplash.jpg" class="cherries" alt="cherries">
-            <img src="./assets/images/marten-bjork-436940-unsplash.jpg" class="grapes" alt="grapes">
-
-        </div>      
-    </div>
-    <p id="win"></p>
-    <p id="lost"></p>
-    <p id="previoius"></p>
+<div id="screen">
+    <div id="fruit-area"> </div> 
+ <div class="row">
+    <h3>Number To Match</h3>
+    <div id="random-area"></div>
+    <div id="win-area"></div>
+    <div id="score-title"> Your total score</div>
+    <div id="score-area"></div>
+ </div>
+</div>
     
     <script type="text/javascript" src="assets/javascript/game.js"></script>    
 </body>
