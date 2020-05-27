@@ -1,31 +1,42 @@
+      /* * {
+          border: solid 1px black;
+      } */
+      
       body {
           background-color: navajowhite;
-          margin: 45px;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
       
-      h1 {
-          font-size: 4vw;
+      header {
+          font-size: 5vw;
           color: coral;
           text-align: center;
+          padding: 20px auto 30px;
+          margin-bottom: 30px;
       }
       
       .rules {
           font-size: 1.2rem;
-          width: 50%;
+          width: 30%;
           float: left;
+          padding: 0 10px;
       }
       
-      #screen {
+      #game-board {
           overflow: auto;
+          width: 65%;
+          height: 550px;
+          padding: 0 10px;
       }
       
       .fruit-img {
-          width: 200px;
+          width: 240px;
           height: 200px;
           cursor: pointer;
           border: solid;
           border-color: rgb(0, 0, 0);
+          align-self: center;
+          padding: 0;
       }
       
       .fruits-button {
@@ -35,34 +46,38 @@
       #score-number {
           font-size: 3vw;
       }
-      /* #random-area {
-    width: 200px;
-    height: 150px;
-    padding: 4px;
-    font-size: 3vw;
-    color: rgb(192, 164, 6);
-    background-color: rgb(211, 98, 6);
-  }
-  #score-area {
-    width: 200px;
-    height: 100px;
-    padding: 4px;
-    color: ghostwhite;
-    background-color: darkcyan;
-  }
-  
-  #score-title {
-    width: 50px;
-    padding: 4px;
-    margin-bottom: 10px;
-    color: white;
-    background-color: darkcyan;
-  }
-  #win-area {
-          width: 100px;
-          height: 100px;
-          padding: 4px;
-          margin-bottom: 10px;
-          margin-left: 10px;
+      
+      .row {
+          height: 300px;
+          padding: 0;
+      }
+      
+      .score-boxes {
+          width: 240px;
+          height: 230px;
+          padding: 0;
+          font-size: 2vw;
+          float: left;
+          text-align: center;
+          justify-content: space-around;
+      }
+      
+      #random-area {
+          color: ghostwhite;
+          background-color: rgb(211, 98, 6);
+      }
+      
+      #score-area {
+          color: ghostwhite;
+          background-color: darkcyan;
+      }
+      
+      #score-title {
+          color: ghostwhite;
+          background-color: rgb(42, 167, 30);
+      }
+      
+      #win-area {
+          color: ghostwhite;
           background-color: aqua;
-      } */
+      }

@@ -12,27 +12,28 @@
 </head>
 
 <body>
-    <h1>Fruit collector</h1>
+    <header>Fruit collector</header>
 
-    <div class="fruit">
-        <h2>How to play</h2>
-        <p>You will be shown a random number at the start of the game.</p>
-        <p>There are four types of fruit. You will click on the fruit to get a random number. </p>
-        <p>Each fruit has a different value that will be shown when you click it. </p>
-        <p>The object of the game is to click on the fruit to try to match the random number shown at the begennig of the game. </p>
-        <p>If you match the random number you win!. If you go over the number you lose.</p>
-        <p>Each time you win or lose the game will restart with a different number.</p>
+    <div class="rules">
+        <h1>How to play</h1>
+        <ul>
+            <li>You will be shown a random number at the start of the game.</li>
+            <li>There are four types of fruit. You will click on the fruit to get a random number.</li>
+            <li>Each fruit has a different value that will be shown when you click it.</li>
+            <li>The object of the game is to click on the fruit to try to match the random number shown at the begennig of the game.</li>
+            <li>If you match the random number you win!. If you go over the number you lose.</li>
+            <li>Each time you win or lose the game will restart with a different number.</li>
+        </ul>
 
     </div>
 
-    <div id="screen">
+    <div id="game-board">
         <div id="fruit-area"> </div>
         <div class="row">
-            <h3>Number To Match</h3>
-            <div id="random-area"></div>
-            <div id="win-area"></div>
-            <div id="score-title"> Your total score</div>
-            <div id="score-area"></div>
+            <div class="score-boxes" id="random-area">Number To Match</div>
+            <div class="score-boxes" id="win-area"></div>
+            <div class="score-boxes" id="score-title"> Your total score</div>
+            <div class="score-boxes" id="score-area"></div>
         </div>
     </div>
 
