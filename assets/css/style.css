@@ -1,37 +1,44 @@
-      /* * {
-          border: solid 1px black;
-      } */
-      
       body {
           background-color: navajowhite;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color: ghostwhite;
+      }
+      
+      .btn {
+          color: tomato;
+          font-size: 1.3rem;
+      }
+      
+      .modal-body {
+          background: navajowhite;
+          color: black;
+      }
+      
+      .modal-footer {
+          background: darkcyan;
+      }
+      
+      .modal-header {
+          background: darkcyan;
+          color: ghostwhite;
       }
       
       header {
-          font-size: 5vw;
+          font-size: 4rem;
           color: coral;
           text-align: center;
           padding: 20px auto 30px;
           margin-bottom: 30px;
       }
       
-      .rules {
-          font-size: 1.2rem;
-          width: 30%;
-          float: left;
-          padding: 0 10px;
-      }
-      
-      #game-board {
-          overflow: auto;
-          width: 65%;
-          height: 550px;
-          padding: 0 10px;
+      .fruit-con {
+          text-align: center;
       }
       
       .fruit-img {
-          width: 240px;
-          height: 200px;
+          justify-content: center;
+          width: 260px;
+          height: 250px;
           cursor: pointer;
           border: solid;
           border-color: rgb(0, 0, 0);
@@ -47,11 +54,6 @@
           font-size: 3vw;
       }
       
-      .row {
-          height: 300px;
-          padding: 0;
-      }
-      
       .score-boxes {
           width: 240px;
           height: 230px;
@@ -63,21 +65,22 @@
       }
       
       #random-area {
-          color: ghostwhite;
-          background-color: rgb(211, 98, 6);
-      }
-      
-      #score-area {
-          color: ghostwhite;
-          background-color: darkcyan;
-      }
-      
-      #score-title {
-          color: ghostwhite;
-          background-color: rgb(42, 167, 30);
+          background-color: tomato;
+          padding: 45px;
       }
       
       #win-area {
-          color: ghostwhite;
-          background-color: aqua;
+          background-color: indianred;
+          padding: 20px;
+      }
+      
+      #score-title {
+          background-color: mediumspringgreen;
+          height: 50px;
+      }
+      
+      #score-area {
+          background-color: darkcyan;
+          height: 180px;
+          padding: 40px;
       }
