@@ -27,8 +27,8 @@
           font-size: 4rem;
           color: coral;
           text-align: center;
-          padding: 20px auto 30px;
-          margin-bottom: 30px;
+          padding: 10px auto 30px;
+          margin-bottom: 20px;
       }
       
       .fruit-con {
@@ -56,9 +56,9 @@
       
       .score-boxes {
           width: 240px;
-          height: 230px;
+          height: 400px;
           padding: 0;
-          font-size: 2vw;
+          font-size: 2rem;
           float: left;
           text-align: center;
           justify-content: space-around;
@@ -66,21 +66,58 @@
       
       #random-area {
           background-color: tomato;
-          padding: 45px;
+          padding: 65px;
       }
       
       #win-area {
           background-color: indianred;
-          padding: 20px;
-      }
-      
-      #score-title {
-          background-color: mediumspringgreen;
-          height: 50px;
+          padding: 50px;
       }
       
       #score-area {
           background-color: darkcyan;
-          height: 180px;
-          padding: 40px;
+          padding: 45px;
       }
+      /* //////////////////////////////////////////////////////////////// responsive ////////////////////////////////////////////////////////////////////////////////////////// */
+      /* // Extra small devices (portrait phones, less than 576px) */
+      
+      @media (max-width: 575.98px) {
+          .fruit-img {
+              width: 170px;
+              height: 135px;
+              margin: 0;
+          }
+          .score-boxes {
+              width: 215px;
+              height: 175px;
+              margin: 0;
+              /* font-size: 25px; */
+          }
+          #random-area {
+              padding: 25px;
+          }
+          #win-area {
+              padding: 0px;
+          }
+      }
+      /* // Small devices (landscape phones, 576px and up) */
+      
+      @media (min-width: 576px) and (max-width: 767.98px) {}
+      /* // Medium devices (tablets, 768px and up) */
+      
+      @media (min-width: 768px) and (max-width: 991.98px) {
+          .score-boxes {
+              width: 200px;
+              height: 300px;
+          }
+      }
+      /* // Large devices (desktops, 992px and up) */
+      
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+          .score-boxes {
+              width: 200px;
+          }
+      }
+      /* // Extra large devices (large desktops, 1200px and up) */
+      
+      @media (min-width: 1200px) {}

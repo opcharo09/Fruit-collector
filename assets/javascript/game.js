@@ -101,7 +101,7 @@ $(document).ready(function() {
 
     // Function that will render your "current guess" number to the page.
     function renderMatchingNumber() {
-        var scoreNumDiv = $("<div id='score-number'>").text(yourMatchingNumber);
+        var scoreNumDiv = $("<div id='score-number'>").text("Your Total Score " + yourMatchingNumber);
         $("#score-area").html();
         $("#score-area").html(scoreNumDiv);
     }
